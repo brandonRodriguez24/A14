@@ -39,6 +39,10 @@
 </script>
 <body>
 <h1>This is my Webpage</h1>
-<main></main>
+<script>
+    if(getCookie("username") != ""){
+        document.write("Hello " + getCookie("username")+"!")
+    }
+</script>
 </body>
 </html>
